@@ -31,16 +31,7 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
-    // 'stripe' => [
-    //     'key' => env('STRIPE_KEY'),
-    //     'secret' => env('STRIPE_SECRET'),
-    //     'webhook_secret' => env('STRIPE_WEBHOOK_SECRET'),
-    //     'plans' => [
-    //         'basic' => env('STRIPE_PLAN_BASIC'),
-    //         'professional' => env('STRIPE_PLAN_PROFESSIONAL'),
-    //         'premium' => env('STRIPE_PLAN_PREMIUM'),
-    //     ],
-    // ],
+  
 'stripe' => [
     'key' => env('STRIPE_KEY'),
     'secret' => env('STRIPE_SECRET'),
